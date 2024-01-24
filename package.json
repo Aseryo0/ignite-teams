@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@types/styled-components-react-native": "^5.2.5",
-    "expo": "~50.0.2",
+    "expo": "~50.0.3",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
     "react-native": "0.73.2"
