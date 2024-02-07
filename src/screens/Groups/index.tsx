@@ -1,10 +1,9 @@
-import React from "react";
-import { Container, Title } from "./styles";
+import * as S from "./styles";
 
 export const Groups = () => {
   return (
-    <Container>
-      <Title>Groups</Title>
-    </Container>
+    <S.Container>
+      <S.Title>Groups</S.Title>
+    </S.Container>
   );
 };
