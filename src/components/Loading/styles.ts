@@ -6,7 +6,8 @@ export const Container = styled.View`
   justify-content: center;
   background-color: ${({ theme }) => theme.COLORS.GRAY_600};
 `;
-export const Title = styled.Text`
-  color: ${({ theme }) => theme.COLORS.WHITE};
-  font-size: 2px;
-`;
+
+export const LoadingIndicator = styled.ActivityIndicator.attrs(({ theme }) => ({
+  color: theme.COLORS.GREEN_700,
+  size: "large",
+}))``;
