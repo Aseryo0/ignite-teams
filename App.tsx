@@ -1,6 +1,6 @@
 import theme from "./src/theme";
 import { ThemeProvider } from "styled-components/native";
-import { Groups } from "@screens/Groups";
+import { NewGroup } from "@screens/NewGroup";
 import {
   useFonts,
   Roboto_400Regular,
@@ -18,7 +18,7 @@ export default function App() {
         barStyle="light-content"
         backgroundColor="transparent"
       />
-      {fontsLoaded ? <Groups /> : <Loading />}
+      {fontsLoaded ? <NewGroup /> : <Loading />}
     </ThemeProvider>
   );
 }
