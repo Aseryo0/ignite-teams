@@ -9,6 +9,7 @@ import { FlatList } from "react-native";
 import { PlayerCard } from "@components/PlayerCard";
 import { EmptyList } from "@components/EmptyList";
 import { Button } from "@components/Button";
+import { useNavigation } from "@react-navigation/native";
 
 export const Players = () => {
   const [team, setTeam] = useState("TEAM A");
